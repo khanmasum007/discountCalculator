@@ -11,14 +11,16 @@
     <section>
         <div class="mx-auto w-1/2 mt-12 bg-violet-400 text-center rounded-lg p-12">
             <h1 class="text-4xl text-white">Hey let's get some discount Here</h1>
-            <input class="px-4 py-2 mt-4 rounded" placeholder="Input your number" type="text">
-            <input class="px-4 py-2 mt-4 rounded mx-2" placeholder="Type'DOM'toget 30% less" type="text">
+            <input id="input-number" class="px-4 py-2 mt-4 rounded" placeholder="Input your number" type="text">
+            <input id="input-cupon" class="px-4 py-2 mt-4 rounded mx-2" placeholder="Type'DOM'toget 30% less" type="text">
             <br>
-            <button class="w-6/12 bg-rose-100 hover:bg-rose-50 text-green-500 rounded py-2 mt-3">Submit</button>
+            <button id="btn-submit" class="w-6/12 bg-rose-100 hover:bg-rose-50 text-green-500 rounded py-2 mt-3">Submit</button>
             <div class="bg-white w-6/12 mx-auto rounded mt-4 p-2">
-                <h1 class="text-2xl">Here is you less 30% Amount</h1>
+                <h1 id="final-lessAmount" class="text-2xl">Here is you less 30% Amount</h1>
             </div>
         </div>
     </section>
+
+    <script src="js/discount.js"></script>
 </body>
 </html>
